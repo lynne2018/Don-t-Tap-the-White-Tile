@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4BE1132049811800A4179F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BE1122049811800A4179F /* AppDelegate.swift */; };
+		EC4BE1152049811800A4179F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BE1142049811800A4179F /* ViewController.swift */; };
+		EC4BE1182049811800A4179F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4BE1162049811800A4179F /* Main.storyboard */; };
+		EC4BE11A2049811800A4179F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4BE1192049811800A4179F /* Assets.xcassets */; };
+		EC4BE11D2049811800A4179F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4BE11B2049811800A4179F /* LaunchScreen.storyboard */; };
+		EC4BE1282049811900A4179F /* WhiteTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BE1272049811900A4179F /* WhiteTilesTests.swift */; };
+		EC4BE1332049811900A4179F /* WhiteTilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BE1322049811900A4179F /* WhiteTilesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4BE1242049811900A4179F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4BE1072049811800A4179F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4BE10E2049811800A4179F;
+			remoteInfo = WhiteTiles;
+		};
+		EC4BE12F2049811900A4179F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4BE1072049811800A4179F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4BE10E2049811800A4179F;
+			remoteInfo = WhiteTiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4BE10F2049811800A4179F /* WhiteTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4BE1122049811800A4179F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC4BE1142049811800A4179F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC4BE1172049811800A4179F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4BE1192049811800A4179F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4BE11C2049811800A4179F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4BE11E2049811800A4179F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4BE1232049811900A4179F /* WhiteTilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteTilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4BE1272049811900A4179F /* WhiteTilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteTilesTests.swift; sourceTree = "<group>"; };
+		EC4BE1292049811900A4179F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4BE12E2049811900A4179F /* WhiteTilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteTilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4BE1322049811900A4179F /* WhiteTilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteTilesUITests.swift; sourceTree = "<group>"; };
+		EC4BE1342049811900A4179F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4BE10C2049811800A4179F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4BE1202049811900A4179F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4BE12B2049811900A4179F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4BE1062049811800A4179F = {
+			isa = PBXGroup;
+			children = (
+				EC4BE1112049811800A4179F /* WhiteTiles */,
+				EC4BE1262049811900A4179F /* WhiteTilesTests */,
+				EC4BE1312049811900A4179F /* WhiteTilesUITests */,
+				EC4BE1102049811800A4179F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4BE1102049811800A4179F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4BE10F2049811800A4179F /* WhiteTiles.app */,
+				EC4BE1232049811900A4179F /* WhiteTilesTests.xctest */,
+				EC4BE12E2049811900A4179F /* WhiteTilesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4BE1112049811800A4179F /* WhiteTiles */ = {
+			isa = PBXGroup;
+			children = (
+				EC4BE1122049811800A4179F /* AppDelegate.swift */,
+				EC4BE1142049811800A4179F /* ViewController.swift */,
+				EC4BE1162049811800A4179F /* Main.storyboard */,
+				EC4BE1192049811800A4179F /* Assets.xcassets */,
+				EC4BE11B2049811800A4179F /* LaunchScreen.storyboard */,
+				EC4BE11E2049811800A4179F /* Info.plist */,
+			);
+			path = WhiteTiles;
+			sourceTree = "<group>";
+		};
+		EC4BE1262049811900A4179F /* WhiteTilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4BE1272049811900A4179F /* WhiteTilesTests.swift */,
+				EC4BE1292049811900A4179F /* Info.plist */,
+			);
+			path = WhiteTilesTests;
+			sourceTree = "<group>";
+		};
+		EC4BE1312049811900A4179F /* WhiteTilesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4BE1322049811900A4179F /* WhiteTilesUITests.swift */,
+				EC4BE1342049811900A4179F /* Info.plist */,
+			);
+			path = WhiteTilesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4BE10E2049811800A4179F /* WhiteTiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4BE1372049811900A4179F /* Build configuration list for PBXNativeTarget "WhiteTiles" */;
+			buildPhases = (
+				EC4BE10B2049811800A4179F /* Sources */,
+				EC4BE10C2049811800A4179F /* Frameworks */,
+				EC4BE10D2049811800A4179F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteTiles;
+			productName = WhiteTiles;
+			productReference = EC4BE10F2049811800A4179F /* WhiteTiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4BE1222049811900A4179F /* WhiteTilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4BE13A2049811900A4179F /* Build configuration list for PBXNativeTarget "WhiteTilesTests" */;
+			buildPhases = (
+				EC4BE11F2049811900A4179F /* Sources */,
+				EC4BE1202049811900A4179F /* Frameworks */,
+				EC4BE1212049811900A4179F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4BE1252049811900A4179F /* PBXTargetDependency */,
+			);
+			name = WhiteTilesTests;
+			productName = WhiteTilesTests;
+			productReference = EC4BE1232049811900A4179F /* WhiteTilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4BE12D2049811900A4179F /* WhiteTilesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4BE13D2049811900A4179F /* Build configuration list for PBXNativeTarget "WhiteTilesUITests" */;
+			buildPhases = (
+				EC4BE12A2049811900A4179F /* Sources */,
+				EC4BE12B2049811900A4179F /* Frameworks */,
+				EC4BE12C2049811900A4179F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4BE1302049811900A4179F /* PBXTargetDependency */,
+			);
+			name = WhiteTilesUITests;
+			productName = WhiteTilesUITests;
+			productReference = EC4BE12E2049811900A4179F /* WhiteTilesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4BE1072049811800A4179F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Lynne;
+				TargetAttributes = {
+					EC4BE10E2049811800A4179F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC4BE1222049811900A4179F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC4BE10E2049811800A4179F;
+					};
+					EC4BE12D2049811900A4179F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC4BE10E2049811800A4179F;
+					};
+				};
+			};
+			buildConfigurationList = EC4BE10A2049811800A4179F /* Build configuration list for PBXProject "WhiteTiles" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4BE1062049811800A4179F;
+			productRefGroup = EC4BE1102049811800A4179F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4BE10E2049811800A4179F /* WhiteTiles */,
+				EC4BE1222049811900A4179F /* WhiteTilesTests */,
+				EC4BE12D2049811900A4179F /* WhiteTilesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4BE10D2049811800A4179F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4BE11D2049811800A4179F /* LaunchScreen.storyboard in Resources */,
+				EC4BE11A2049811800A4179F /* Assets.xcassets in Resources */,
+				EC4BE1182049811800A4179F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4BE1212049811900A4179F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4BE12C2049811900A4179F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4BE10B2049811800A4179F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4BE1152049811800A4179F /* ViewController.swift in Sources */,
+				EC4BE1132049811800A4179F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4BE11F2049811900A4179F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4BE1282049811900A4179F /* WhiteTilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4BE12A2049811900A4179F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4BE1332049811900A4179F /* WhiteTilesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4BE1252049811900A4179F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4BE10E2049811800A4179F /* WhiteTiles */;
+			targetProxy = EC4BE1242049811900A4179F /* PBXContainerItemProxy */;
+		};
+		EC4BE1302049811900A4179F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4BE10E2049811800A4179F /* WhiteTiles */;
+			targetProxy = EC4BE12F2049811900A4179F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC4BE1162049811800A4179F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4BE1172049811800A4179F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4BE11B2049811800A4179F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4BE11C2049811800A4179F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4BE1352049811900A4179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC4BE1362049811900A4179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4BE1382049811900A4179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lynne.WhiteTiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC4BE1392049811900A4179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lynne.WhiteTiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC4BE13B2049811900A4179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lynne.WhiteTilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteTiles.app/WhiteTiles";
+			};
+			name = Debug;
+		};
+		EC4BE13C2049811900A4179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lynne.WhiteTilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteTiles.app/WhiteTiles";
+			};
+			name = Release;
+		};
+		EC4BE13E2049811900A4179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteTilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lynne.WhiteTilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteTiles;
+			};
+			name = Debug;
+		};
+		EC4BE13F2049811900A4179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteTilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lynne.WhiteTilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteTiles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4BE10A2049811800A4179F /* Build configuration list for PBXProject "WhiteTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4BE1352049811900A4179F /* Debug */,
+				EC4BE1362049811900A4179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4BE1372049811900A4179F /* Build configuration list for PBXNativeTarget "WhiteTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4BE1382049811900A4179F /* Debug */,
+				EC4BE1392049811900A4179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4BE13A2049811900A4179F /* Build configuration list for PBXNativeTarget "WhiteTilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4BE13B2049811900A4179F /* Debug */,
+				EC4BE13C2049811900A4179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4BE13D2049811900A4179F /* Build configuration list for PBXNativeTarget "WhiteTilesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4BE13E2049811900A4179F /* Debug */,
+				EC4BE13F2049811900A4179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4BE1072049811800A4179F /* Project object */;
+}
